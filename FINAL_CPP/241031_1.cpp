@@ -19,5 +19,12 @@ int main() {
 
 	// weak_ptr
 	
+		// 무슨말인지 모르겠더염
+		// struct : default로 public
+		// class : default로 private
+
+
+
+
 
 }
