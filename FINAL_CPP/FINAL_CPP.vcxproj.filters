@@ -15,22 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="241029_1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="241029_2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="241029_3_스마트포인터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="241029_4_auto_ptr.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="241029_5_unique_ptr.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="241029_6_shared_ptr.cpp">
+    <ClCompile Include="241031_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
