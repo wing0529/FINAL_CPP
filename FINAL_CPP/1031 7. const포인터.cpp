@@ -18,3 +18,36 @@ int* const p = &a;
 // 멤버 함수를 const로 정의하면 함수 안에서 멤버 변수를 변경하는 것이 금지된다. 
 // const 객체를 가리키는 포인터를 정의하면 이 포인터로 호출할 수 있는 함수는 const 함수뿐이다.
 
+#include <iostream>
+using namespace std;
+
+class Circle
+{
+private:
+	int radius;
+
+public:
+	Circle() :radius(10) { }
+	~Circle() { }
+	void setRadius(int radius) { this->radius = radius; }
+	int getRadius() const { return radius; }
+};
+int main()
+{
+	Circle* p = new Circle();
+	const Circle* pConstObj = new Circle();
+	Circle* const pConstPtr = new Circle();
+
+	cout << "pRect->radius: " << p->getRadius() << endl;
+	cout << "pConstObj->radius: " << pConstObj->getRadius() << endl;
+	cout << "pConstPtr->radius: " << pConstPtr->getRadius() << endl << endl;
+
+	p->setRadius(30);
+	// pConstObj->setRadius(30);
+	pConstPtr->setRadius(30);
+
+	cout << "pRect->radius: " << p->getRadius() << endl;
+	cout << "pConstObj->radius: " << pConstObj->getRadius() << endl;
+	cout << "pConstPtr->radius: " << pConstPtr->getRadius() << endl;
+	return 0;
+}
