@@ -13,3 +13,4 @@ public:
 	void setWidth(int width) { this->width = width; }
 	int getWidth() { return width; }
 };
+// 실제 회사에서 이렇게 쓰는 사람은 없음
