@@ -32,6 +32,7 @@
     <ClCompile Include="1029 6_shared_ptr.cpp" />
     <ClCompile Include="1031 1. 스마트 포인터.cpp" />
     <ClCompile Include="1031 7. const포인터.cpp" />
+    <ClCompile Include="1031 8. vector 포인터.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
